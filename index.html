@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>new page</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+        body {
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(175, 255, 225);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img {
+            width: 94px;
+        }
+
+        .nav-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-list-item {
+            padding: 5px 10px;
+            margin-right: 5px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+        }
+        .nav-list-item:hover{
+            background-color: black;
+            color: rgb(175, 255, 225);
+        }
+
+        .nav-list-link {
+            text-decoration: none;
+            font-weight: 600;
+            color: inherit;
+        }
+    </style>
 </head>
+
 <body>
+    <nav class="nav">
+        <img class="nav-img" src="images/Adidas_Logo.svg" alt="">
+        <ul class="nav-list">
+            <li class="nav-list-item"><a class="nav-list-link" href="#">logout</a></li>
+            <li class="nav-list-item"><a class="nav-list-link" href="#">about</a></li>
+            <li class="nav-list-item"><a class="nav-list-link" href="#">join</a></li>
+        </ul>
+    </nav>
     <h1>Hello</h1>
+    <a href="https://web.facebook.com/?_rdc=1&_rdr">facebook</a>
+    <p>Hello there this a paragraph</p>
+    <b>Bold text</b>
+    <div>hah</div>
+    <footer>footer</footer>
+
 </body>
+
 </html>
