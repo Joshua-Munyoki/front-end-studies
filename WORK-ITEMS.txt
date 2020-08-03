@@ -1,5 +1,7 @@
 CREATE NEW HTML PAGE
   The name of new html page should be page1.html
+  All embedded css in html should be placed on a .css file, for example style.css
+
   Workflow:
     Create a new branch such as feature/add-page1-html or whatever and create your new page
     the page should just have title ie <h1>bla bla</h1>
@@ -11,3 +13,4 @@ CREATE NEW HTML PAGE
           copy your branch name ie feature/my-branch
         then type
           git push -u origin feature/my-branch
+
