@@ -1,0 +1,13 @@
+CREATE NEW HTML PAGE
+  The name of new html page should be page1.html
+  Workflow:
+    Create a new branch such as feature/add-page1-html or whatever and create your new page
+    the page should just have title ie <h1>bla bla</h1>
+    commit the changes made while in your new branch
+    push the branch to your remote
+      1) vscode go to git menu you will see 3dots for menu > then click push > it will prompt you accept so it creates a remote branch
+      2) Open terminal on vs code type:-
+        git status
+          copy your branch name ie feature/my-branch
+        then type
+          git push -u origin feature/my-branch
