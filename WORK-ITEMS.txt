@@ -1,11 +1,14 @@
-CREATE DIV PATTERNS USING POSITION ABSOLUTE
-  Create new html page should be called page2.html
-  Create a css file called page2.css file and link it to the page2.html
-  Create a new directory called 'style' and move all .css files into it ie style/page1.css and style/page2.css
+CREATE DIV PATTERNS USING POSITION RELATIVE
+  Create new html page should be called page3.html
+  Create a css file called page3.css file and link it to the page3.html
   The page should have 6 different divs all having position absolute and their respective background colors
   Each div should have a different class name inorder to give them different styles
-  
+
 
   TIPS:
     use the drawing.svg file under pictures to create your new page
+    use display flex
+
+  Reference
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
