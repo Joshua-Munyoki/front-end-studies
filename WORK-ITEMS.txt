@@ -1,18 +1,11 @@
-CREATE NEW HTML PAGE
-  Create new html page should be called page1.html
-  Create a css file called page1.css file and link it to the page1.html
-  The page1.html content should have only a title
-    <h1>Hello world</h1>
-  The page1.html should have a background color of 'blue' while seen on the browser
+CREATE DIV PATTERNS USING POSITION ABSOLUTE
+  Create new html page should be called page2.html
+  Create a css file called page2.css file and link it to the page2.html
+  Create a new directory called 'style' and move all .css files into it ie style/page1.css and style/page2.css
+  The page should have 6 different divs all having position absolute and their respective background colors
+  Each div should have a different class name inorder to give them different styles
+  
 
   TIPS:
-    create a new branch off from master branch
-    commit the changes made while in your new branch
-    push the branch to your remote
-      1) vscode go to git menu you will see 3dots for menu > then click push > it will prompt you accept so it creates a remote branch
-      2) Open terminal on vs code type:-
-        git status
-          copy your branch name ie feature/my-branch
-        then type
-          git push -u origin feature/my-branch
+    use the drawing.svg file under pictures to create your new page
 
