@@ -1,6 +1,6 @@
 CREATE DIV PATTERNS USING POSITION RELATIVE
-  Create new html page should be called page3.html
-  Create a css file called page3.css file and link it to the page3.html
+  Create new html page should be called page4.html
+  Create a css file called page4.css file and link it to the page4.html
   The page should have 6 different divs all having position absolute and their respective background colors
   Each div should have a different class name inorder to give them different styles
 
