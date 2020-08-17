@@ -1,4 +1,4 @@
-CREATE DIV PATTERNS USING POSITION RELATIVE
+ARRAY DATA TYPE STUDY
   Create array with string elements for instance 'a', 'b'....'z'
   Check out each array method and comment what it does above
   Methods to check out
