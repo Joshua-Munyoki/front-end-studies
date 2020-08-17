@@ -1,14 +1,32 @@
 CREATE DIV PATTERNS USING POSITION RELATIVE
-  Create new html page should be called page4.html
-  Create a css file called page4.css file and link it to the page4.html
-  The page should have 6 different divs all having position absolute and their respective background colors
-  Each div should have a different class name inorder to give them different styles
+  Create array with string elements for instance 'a', 'b'....'z'
+  Check out each array method and comment what it does above
+  Methods to check out
+    1. array.length
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+    
+    2. array.filter
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+    
+    3. array.find
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+    
+    4. array.forEach
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+    
+    5. array.includes
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+    
+    6. array.map
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+    
+    7. array.reduce
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 
   TIPS:
-    use the drawing.svg file under pictures to create your new page
-    use display flex
+    use blogs youtube etc to checkout what each method does and its importance
 
   Reference
-    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
