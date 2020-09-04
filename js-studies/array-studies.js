@@ -6,28 +6,29 @@ const name = [
 console.log(name);
 
 // .length property returns the number of elements in an array
-console.log(name.length);
+console.log(".length of array",name.length);
 
 // .length property returns the number of characters in an array element
-console.log(name[0].length);
+console.log(".lenght of an array element",name[0].length);
 
 // .length property can also set the number of elements in an array
 //name.length = 3;
-
-console.log(name);
+//console.log(name);
 
 // .filter() method creates a new array with elements that pass the test implemented by the provided function
-const shortName = name.filter(
-    smallNames => smallNames.length <= 4
-);
 
 const longName = name.filter(
     bigNames => bigNames.length > 4
 );
 
-console.log(shortName);
+console.log(".filter long names",longName);
 
-console.log(longName);
+let age = [15,18,19,26,60,36]; 
+
+let old = age.filter(years => years >= 21);
+
+console.log("original age",age);
+console.log(".filter old age",old);
 
 // .find() method returns the value of the FIRST element in a given array that passes the provided testing function
 const look = name.find(finding => finding.length >= 5);
@@ -39,10 +40,10 @@ const look3 = name.findIndex(finding => finding.length >= 5);
 
 const look4 = name.find(finding => finding == name[5]);
 
-console.log(look, look2, look3, look4);
+console.log(".find",look, look2, look3, look4);
 
 // .forEach() method executes a provided function once for each array element
-const welcome = name.forEach(x => console.log(`hi ${x}`));
+const welcome = name.forEach(x => console.log(`.for each say hi ${x}`));
 
 // .includes() method determines if an array has a certain value among it's elements and returns true or false accordingly
 let searchName = "gitonga";
@@ -55,14 +56,20 @@ if (name.includes(searchName) === true) {
     output = `${searchName} is not an active user`;
 }
 
-console.log(output);
+console.log(".includes",output);
 
 // .map() method creates new array populated by results of the function called on each element in the calling array
 const capitalName = name.map(
     smallLetter => smallLetter.toUpperCase()
 );
 
-console.log(capitalName);
+console.log(".map",capitalName);
+
+let numbers = [1,2.3,4,5,6,7,8,9,10];
+
+let newNumbers = numbers.map(digit => digit*2);
+
+console.log(".map",newNumbers);
 
 // .reduce() method applies a reduce function on all elements of an array end returns a single output
 
